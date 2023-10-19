@@ -1,0 +1,36 @@
+{
+    "contacto":"Aluhegarcia007@gmail.com",
+    "datos de contactos": "irojascorsico@gmail.com",
+    "cursada":[
+        "Javascript Desarrollador Avanzado (finalizado en 2020)",
+        "Maquetador Web Avanzado (finalizado en 2020)",
+        "Javascript Desde cero (finalizado en 2020)",
+        "Desarrollo Web con HTML (finalizado en 2020)",
+        "Excel básico y avanzado (finalizado en 2020)"
+    ],
+    "experiencia":[{
+        "cuartExperiencia" : "SGE-713",
+        "tercerExperiencia":"proyecto-práctica profesionalizante-7mo E.T.P año:2023",
+        "segundaExperiencia":"tecnologias: HTML-CSS-JAVASCRIPT-ANGULAR-TYPESCRIPT-PHP-MYSQL",
+        "primerExperiencia":"actualmente cursando el ultimo año de carrera,"
+        }
+    ],
+    "habilidades":[{
+        "primerHabilidad": "Trabajo individual y grupal.",
+        "segundaHabilidad":"Maquetador de HTML y CCS.",
+        "tercerHabilidad":"Especial interés en el front-end."
+    }],
+    "lenguajes":[
+        {
+            "primerLenguaje": "Ingles básico",
+            "segundoLenguaje":"Español"
+        }
+    ]
+
+
+
+
+
+
+
+}
