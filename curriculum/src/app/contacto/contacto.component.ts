@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CvService } from '../servicios/cv.service';
 
 @Component({
@@ -6,17 +6,18 @@ import { CvService } from '../servicios/cv.service';
   templateUrl: './contacto.component.html',
   styleUrls: ['./contacto.component.css']
 })
-export class ContactoComponent implements OnInit {
-  educacion: any;
-constructor(private cvService:CvService){
-
-
-}
-  ngOnInit(): void {
+export class ContactoComponent {
+  contacto: any;
+  constructor(private cvService: CvService) {
     this.cvService.obtenerEducacion().subscribe(
-      data => {console.log(data);
-      this.educacion=data["contacto"]
-    }
+      {
+        next: (data) =>  {
+          console.log(data);
+          this.contacto = data["contacto"];
+        }
+      }
     )
+
   }
+
 }

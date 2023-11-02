@@ -12,6 +12,6 @@ export class CvService {
   obtenerEducacion():Observable<any>
   {
     console.log('acá funca (cv.service)')
-    return this.http.get("./assets/data.json")
+    return this.http.get("././assets/data.json")
   }
 }
